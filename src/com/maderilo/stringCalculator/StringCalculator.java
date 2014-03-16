@@ -2,7 +2,7 @@ package com.maderilo.stringCalculator;
 
 public class StringCalculator {
 
-	private static String delimiters = "[,]";
+	private static String delimiters = "[, \n]";
 	
 	public static int Add(String numbers){
 		return Add(numbers.split(delimiters));

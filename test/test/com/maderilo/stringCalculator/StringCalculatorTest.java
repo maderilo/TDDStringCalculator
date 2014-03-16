@@ -36,4 +36,16 @@ public class StringCalculatorTest {
 		
 		assertEquals(22, result);
 	}
+	
+	
+	@Test
+	public void should_accept_newlines_as_separator() throws Exception {
+		String input = "12\n2,3,5";
+		
+		int result = StringCalculator.Add(input);
+		
+		assertEquals(22, result);
+	}
+	
+	
 }
