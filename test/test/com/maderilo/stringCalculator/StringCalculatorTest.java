@@ -29,11 +29,11 @@ public class StringCalculatorTest {
 	
 	
 	@Test
-	public void should_return_sum_for_2number_comma_string() throws Exception {
-		String input = "12,2";
+	public void should_return_sum_for_more_than_1number_comma_string() throws Exception {
+		String input = "12,2,3,5";
 		
 		int result = StringCalculator.Add(input);
 		
-		assertEquals(14, result);
+		assertEquals(22, result);
 	}
 }
